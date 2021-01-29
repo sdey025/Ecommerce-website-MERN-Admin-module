@@ -1,0 +1,51 @@
+const mongoose = require('mongoose')
+const {ObjectId} = mongoose.Schema.Types
+const PaymentSchema = new mongoose.Schema({
+    uid:{
+        type:String
+    },
+    uname:{
+        type:String
+    },
+    date:{
+        type:String
+    },
+    time:{
+        type:String
+    },
+    pid:{
+        type:String
+    },
+    pcost:{
+        type:String
+    },
+    pgender:{
+        type:String
+    },
+    ppic:{
+        type:String
+    },
+    pname:{
+        type:String
+    },
+    delivered:{
+        type:String,
+        default:'no'
+    },
+    address:{
+        type:String
+    },
+    number:{
+        type:String
+    },
+    shipping_date:{
+        type:String
+    },
+    reaching_date:{
+        type:String
+    },
+    delivery_date:{
+        type:String
+    }
+})
+mongoose.model('Payment',PaymentSchema)

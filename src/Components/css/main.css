@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background-color: #EAEDEF;
+}
+#authdiv{
+    background-image: linear-gradient(to bottom right ,#E96B79, #C46ED3);
+    height: 100vh;
+}
+#card{
+    background-image: linear-gradient(to bottom left ,#20222F,#313846);
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 25px black;
+}
+#cardh{
+    color: #e1e8e9;
+}
+#myinput{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #585a5f;
+    color: rgb(233, 233, 233);
+}
+#mybtn{
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-width: 3px;
+    font-weight: bold;
+}
+#myinput::placeholder{
+    color:rgb(165, 165, 165);
+}
+#instruction{
+    margin: 0 90px;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+}
+#instruction1{
+    margin: 0 90px;
+    color: rgb(221, 221, 221);
+    font-size: 17px;
+}
+#nav{
+    background-image: linear-gradient(to right, #F9748F, #FE9A8B);
+}
+#icon{
+    font-size: 60px;
+    color: rgb(245, 245, 245);
+    transition: 0.4s;
+}
+#card1{
+    background-image: radial-gradient(#18D7E4, #38BEF0);
+    border: none;
+}
+#card1:hover #icon{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#card2:hover #icon{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#card3:hover #icon{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#card2{
+    background-image: linear-gradient(to bottom right, #4E4376,#2B5775);
+    border: none;
+}
+#card3{
+    background-image: linear-gradient(#30B485,#0CA361);
+    border: none;
+}
+#card4{
+    background-image: linear-gradient(#FFAF98,#FF0A45);
+    border: none;
+}
+#detailscard{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: inset 0px 0px 15px black;
+}
+#statuscard{
+    width: 70%;
+    margin: 30px auto;
+}
+#statusimg{
+    width: 100%;
+}
